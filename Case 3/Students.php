@@ -5,10 +5,14 @@ ini_set('display_errors', '1');
 ini_set('display_startup_errors', '1');
 error_reporting(E_ALL);
 
-require './First_group.php';
-require './Second_group.php';
-
 //Case #3
+
+class Groups
+{
+    public $groupA;
+    public $groupB;
+}
+
 class Students 
 {
     public $name;
@@ -26,5 +30,16 @@ class Students
     }
 }
 
+// class GroupOne 
+// {
+//     public $name;
+//     public $grade;
+
+//     public function __construct(string $name, float $grade)
+//     {
+//         $this->name = $name;
+//         $this->grade = $grade;
+//     }
+// }
 
 ?>
