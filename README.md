@@ -31,6 +31,7 @@ There's two groups, both of 10 students. Every student has a name (even Jaqen) a
 Provide an easy way to calculate the average score of a group.
 Add a function to move a student from one group to another.
 Show the average score of both groups. Move the top student from one group with the lowest scoring student from another. Show the averages again - how were these affected?
+
 Use Case #4
 We are preparing three types of content for a website:
 
