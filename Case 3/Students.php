@@ -7,12 +7,6 @@ error_reporting(E_ALL);
 
 //Case #3
 
-class Groups
-{
-    public $groupA;
-    public $groupB;
-}
-
 class Students 
 {
     public $name;
@@ -22,11 +16,6 @@ class Students
     {
         $this->name = $name;
         $this->grade = $grade;
-    }
-
-    public function avrgScore()
-    {
-        // foreach();
     }
 }
 
@@ -41,5 +30,20 @@ class Students
 //         $this->grade = $grade;
 //     }
 // }
+
+class Groups
+{
+    public array $groups;
+
+    public function __construct( array $groups)
+    {
+        $this->groups = $groups;
+    }
+
+    public function averageScore()
+    {
+        foreach($groups as $student);
+    }
+}
 
 ?>
